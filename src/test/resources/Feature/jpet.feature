@@ -5,3 +5,11 @@ Feature: Enter the store
     When I navigate to index.html page
     And I click on Enter the store button
     Then Store should be visible
+    
+Feature: Enter the store again
+
+  Scenario: Successful Login to the page
+    Given I open chrome browser
+    When I navigate to index.html page
+    And I click on Enter the store button
+    Then Store should be visible
